@@ -2,15 +2,16 @@ package com.example;
 
 import com.example.events.EventFactory;
 import com.example.events.JoinedEvent;
+import java.util.logging.Logger;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 
 @Getter
-@Slf4j
 public class User {
 
     public static User of(Long id, String name, int age) {
         JoinedEvent join = EventFactory.join(id, name, age);
+        System.out.println("User Joined!! => " + join);
         return new User(id, name, age);
     }
 

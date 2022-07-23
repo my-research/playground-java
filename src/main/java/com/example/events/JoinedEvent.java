@@ -2,8 +2,10 @@ package com.example.events;
 
 import com.example.User;
 import lombok.Getter;
+import lombok.ToString;
 import lombok.Value;
 
+@ToString
 @Getter
 public class JoinedEvent {
 
