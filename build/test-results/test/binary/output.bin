@@ -1,1 +1,1 @@
-8User Joined!! => JoinedEvent(id=123, name=jang, age=26)
+^message = User Joined !! => [1] [james] [item: Item(name=weapon), item: Item(name=portion), ]
