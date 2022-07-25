@@ -8,6 +8,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/gradle-java-playground" />
+            <option value="$PROJECT_DIR$/springplayground" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/demo" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/demo" />
           </set>
         </option>
       </GradleProjectSettings>

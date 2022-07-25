@@ -11,12 +11,12 @@ public class EnvChecker implements Checker {
     private static Checker INSTANCE = PRODUCTION;
 
     @Override
-    public void check() {
-        INSTANCE.check();
+    public String check() {
+        return INSTANCE.check();
     }
 
-    public static void checkEnv() {
-        INSTANCE.check();
+    public static String checkEnv() {
+        return INSTANCE.check();
     }
 
     public static void setEnvToTest() {
@@ -30,15 +30,15 @@ public class EnvChecker implements Checker {
     private static class Production implements Checker {
 
         @Override
-        public void check() {
-            System.out.println("this is production env");
+        public String check() {
+            return "this is production env";
         }
     }
 
     private static class Testing implements Checker {
         @Override
-        public void check() {
-            System.out.println("this is testing env");
+        public String check() {
+            return "this is testing env";
         }
     }
 }

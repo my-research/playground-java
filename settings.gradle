@@ -1,2 +1,5 @@
 rootProject.name = 'playground'
 
+include 'gradle-java-playground'
+include 'springplayground'
+
