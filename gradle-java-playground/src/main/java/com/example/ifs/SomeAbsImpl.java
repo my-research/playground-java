@@ -1,4 +1,4 @@
-package com.example.poc;
+package com.example.ifs;
 
 public class SomeAbsImpl extends SomeAbs {
 

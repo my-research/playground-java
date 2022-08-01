@@ -1,4 +1,6 @@
-package com.example.poc;
+package com.example.ifs;
+
+import com.example.poc.EnvChecker;
 
 public class SomeTarget {
 

@@ -1,4 +1,4 @@
-package com.example.poc;
+package com.example.ifs;
 
 public abstract class SomeAbs {
     int a = 10;

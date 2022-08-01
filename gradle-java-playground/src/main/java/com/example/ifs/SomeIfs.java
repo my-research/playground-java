@@ -1,4 +1,4 @@
-package com.example.poc;
+package com.example.ifs;
 
 import java.util.HashMap;
 import java.util.Map;
