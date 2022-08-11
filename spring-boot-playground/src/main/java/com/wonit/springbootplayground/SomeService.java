@@ -5,10 +5,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class SomeService {
-    @Value("${secret}")
+    @Value("${some-secret}")
     private String secret;
 
-    public SomeService(@Value("${secret}") String scret) {
+    public SomeService(@Value("${some-secret}") String scret) {
         System.out.println("secret = " + scret);
     }
 

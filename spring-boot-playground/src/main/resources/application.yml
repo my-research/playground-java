@@ -1,1 +1,1 @@
-secret: config data
+some-secret: "TWILIO_AUTH_TOKEN"
