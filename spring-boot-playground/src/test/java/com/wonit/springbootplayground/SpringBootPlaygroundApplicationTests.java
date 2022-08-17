@@ -2,6 +2,8 @@ package com.wonit.springbootplayground;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.wonit.springbootplayground.gen.Car;
+import com.wonit.springbootplayground.gen.CarContainer;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -27,11 +29,10 @@ class SpringBootPlaygroundApplicationTests {
     }
 
     @Autowired
-    SomeProps someProps;
+    CarContainer carContainer;
 
     @Test
     void name() {
-        System.out.println("message = " + someProps.getName());
-        System.out.println("message = " + someProps.getAliases().get(0));
+        carContainer.getCars().forEach(Car::drive);
     }
 }
