@@ -8,12 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class SomeController {
 
-    private final SomeService service;
 
-    @GetMapping("/")
-    public String hh() {
-        service.hello();
-        return "success";
-    }
 
 }
