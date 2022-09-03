@@ -1,4 +1,4 @@
 package com.wonit.springbootplayground;
 
-public class SomeEntity {
+public @interface SomeAnnotation {
 }
