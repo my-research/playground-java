@@ -18,7 +18,6 @@ public class Processor implements Runnable {
         while (true) {
             try {
                 Map<String, SomeName> beansOfType = context.getBeansOfType(SomeName.class);
-
                 System.out.println("beansOfType = " + beansOfType.size());
                 Thread.sleep(1000L);
             } catch (InterruptedException e) {
