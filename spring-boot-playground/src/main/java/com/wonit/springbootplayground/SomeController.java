@@ -1,5 +1,6 @@
 package com.wonit.springbootplayground;
 
+import com.github.dhslrl321.zsmq.client.ZolaQueueMessageTemplate;
 import java.util.Map;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationContext;
