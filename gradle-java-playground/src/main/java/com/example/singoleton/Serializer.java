@@ -1,15 +1,11 @@
 package com.example.singoleton;
 
-public class Serializer {
-    private static final Serializer instance = new Serializer();
+import java.util.Objects;
 
-    private Serializer() {}
+public enum Serializer {
+    INSTANCE;
 
-    public static Serializer getInstance() {
-        return instance;
-    }
-
-    public void serialize(String provided) {
-        System.out.println("provided = " + provided);
+    public String serialize(String provided) {
+        return "";
     }
 }
